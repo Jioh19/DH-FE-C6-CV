@@ -1,3 +1,5 @@
+
+
 * {
 	margin: 0;
 	padding: 0;
@@ -5,8 +7,25 @@
 	font-family: var(--font-family);
 }
 
+nav {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	height: 2em;
+	background: var(--background-transparency);
+	color: white;
+}
+
+.jioh19 {
+	margin-left: 1rem;
+}
+
+.glow {
+	text-shadow: rgb(255, 255, 255) 0px 0 5px, 0 0 1em white;
+}
+
 header {
-	padding: 1em;
+
 	text-align: center;
 	background: var(--header-background-color);
 	background-image: url("../img/ZZZZZ2339.jpg");
@@ -15,6 +34,7 @@ header {
 }
 
 .portrait {
+	margin-block: 1em;
 	border-radius: 50%;
 	width: 200px;
 	opacity: 1;
@@ -24,7 +44,7 @@ header {
 
 h1 {
 	padding: 0.35em;
-	margin-bottom: 4rem;
+
 	text-align: center;
 	background: var(--secondary-background-color);
 	font-size: var(--header-font-size);
@@ -89,3 +109,6 @@ footer {
 	color: white;
 }
 
+a:hover {
+	text-shadow: rgb(255, 255, 255) 0px 0 5px, 0 0 1em white;
+}
