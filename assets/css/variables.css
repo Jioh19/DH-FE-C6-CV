@@ -1,0 +1,15 @@
+:root {
+    --header-background-color: #E6E6E6;
+    --secondary-background-color: #C4C4C4;
+    --primary-background-color: #FFFFFF;
+
+
+    --main-font-color: #005677;
+    --font-family: Times New Roman;
+    --header-font-size: 35px;
+    --header-font-weight: 700;
+    --title-font-size: 20px;
+    --title-font-weight: 700;
+    --main-font-size: 15px;
+    --main-font-weight: 400;
+}
