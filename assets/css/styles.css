@@ -39,9 +39,9 @@ header {
 }
 
 .portrait {
-	margin-block: 1em;
+	margin-block: 0.75em;
 	border-radius: 50%;
-	width: 200px;
+	width: 170px;
 	opacity: 1;
 	border: rgba(255, 255, 255, 0.6) solid 5px;
 	box-shadow: 0 0 20px 10px white;
