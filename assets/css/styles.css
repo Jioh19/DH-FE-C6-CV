@@ -1,5 +1,5 @@
 
-
+/* Reseteo Genérico */
 * {
 	margin: 0;
 	padding: 0;
@@ -7,13 +7,18 @@
 	font-family: var(--font-family);
 }
 
+
+/* Header y Nav */
 nav {
+	position: fixed;
 	display: flex;
+	width: 100%;
 	align-items: center;
 	gap: 2rem;
 	height: 2em;
 	background: var(--background-transparency);
 	color: white;
+	z-index: 5;
 }
 
 .jioh19 {
@@ -53,6 +58,9 @@ h1 {
 	letter-spacing: 0.4rem;
 }
 
+/* Fin de Header y Nav */
+
+/* Main y Secciones */
 h2 {
 	margin-block: 1rem;
 	padding: 0.1em 1rem;
@@ -61,9 +69,6 @@ h2 {
 	color: var(--main-font-color);
 	letter-spacing: 0.4rem;
 }
-/* .section1 {
-    height: 3rem;
-} */
 
 .info {
 	margin-inline: 3rem;
@@ -87,10 +92,7 @@ li {
 	display: flex;
 	gap: 0.2rem;
 }
-a {
-    text-decoration: none;
-    color: white;
-}
+/* Fin Main y Secciones */
 footer {
 	display: flex;
 	justify-content: center;
@@ -99,16 +101,17 @@ footer {
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	padding: 0.75rem;
-    border-top: var(--secondary-background-color) 10px solid;
+	height: 35px;
 	font-weight: bold;
     font-size: x-large;
 	background-color: var(--main-font-color);
-	background-size: cover;
-	background-position: center;
 	color: white;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
 a:hover {
 	text-shadow: rgb(255, 255, 255) 0px 0 5px, 0 0 1em white;
 }
