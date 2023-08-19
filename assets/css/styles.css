@@ -61,6 +61,11 @@ h1 {
 /* Fin de Header y Nav */
 
 /* Main y Secciones */
+
+main {
+	padding-block: 0 3rem;
+}
+
 h2 {
 	margin-block: 1rem;
 	padding: 0.1em 1rem;
